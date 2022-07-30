@@ -24,8 +24,8 @@ o toki e "ma ale o kama pona!".
 ijo Nanpa, en ijo Motulo Tu Wan, en ijo Motulo Luka li wan.
 
 ni li ma Sike.
-ijo Motulo Tu Wan li sama ala sama tu tu? sama la, o ante e ona tawa wan.
-ijo Motulo Luka li sama ala sama luka wan? sama la, o ante e ona tawa wan.
+ijo Motulo Tu Wan li tu tu la, o ante e ona tawa wan.
+ijo Motulo Luka li luka wan la, o ante e ona tawa wan.
 ijo Motulo Tu Wan li sama ala sama tu wan? sama la, o tawa ma Motulo Tu Wan. sama ala, la o tawa ma Motulo Tu Wan Ala.
 
 ni li ma Motulo Tu Wan.
