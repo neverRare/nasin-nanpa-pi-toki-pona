@@ -1,12 +1,10 @@
-# pali nanpa pi toki pona (tppl)
+# nasin nanpa pi toki pona (tppl)
 
 ⚠ tenpo ni la, ilo ni li pini ala. sina ken ala kepeken ilo ni.
 
-kepeken ilo ni la, sina ken pali e pali nanpa kepeken toki pona! ilo nanpa li ken sona e toki pona sina li pali e wile sina!
+kepeken ilo ni la, sina ken pali e nasin nanpa kepeken toki pona! ilo nanpa li ken sona e toki pona sina li pali e wile sina! ilo ni li nasa musi. pali sina li musi ala la, o kepeken ala ilo ni. :)
 
-ilo ni li nasa musi. pali sina li musi ala la, o kepeken ala ilo ni. :)
-
-sina wile ala wile sona kepeken ilo ni? wile la, o lukin [lipu sona].
+sina wile ala wile sona kepeken ilo ni? wile la, o lukin e [lipu sona].
 
 [lipu sona]: ./lipu-sona.md
 
@@ -39,6 +37,6 @@ ijo Motulo Luka li luka ala luka? luka la, o toki e "mu Pasa". luka ala la, o to
 o tawa ma Awen.
 
 ni li ma Awen.
-o pana e wan tawa ijo Nanpa tawa ijo Motulo Tu Wan, tawa ijo Motulo Luka.
+o pana e wan tawa ijo Nanpa, tawa ijo Motulo Tu Wan, tawa ijo Motulo Luka.
 ale la ilo Nanpa li lili ala lili? lili la, o tawa ma Sike.
 ```
