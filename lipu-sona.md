@@ -33,7 +33,7 @@ mi o sitelen e ni.
 
 ## lon en lon ala
 
-ilo li ken pana e lon e lon ala tawa ijo. ni la, sina ken kepeken nimi `lon`, kepeken nimi `lon ala`, kepeken nimi `powe`, kepeken nimi `weka`. nimi `lon ala` li sama nimi `powe` li sama nimi `weka`.
+ilo li ken pana e lon e lon ala tawa ijo. ni la, sina ken kepeken nimi `lon`, kepeken nimi `lon ala`, kepeken nimi `weka`. nimi `lon ala` li sama nimi `powe` li sama nimi `weka`.
 
 ```txt
 ijo Pu li lon.
