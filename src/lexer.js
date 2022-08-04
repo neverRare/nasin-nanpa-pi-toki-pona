@@ -54,9 +54,10 @@ export function* lex(code) {
       yield* tokenize();
       yield { type: "period" };
     } else if (char === ":") {
+      yield* tokenize();
       yield { type: "colon" };
     } else {
-        text += char;
+      text += char;
     }
   }
 }
