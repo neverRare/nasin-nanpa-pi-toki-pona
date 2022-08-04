@@ -1,3 +1,36 @@
+const KEYWORDS = [
+  "ala",
+  "ale",
+  "ali",
+  "ante",
+  "e",
+  "ijo",
+  "ilo",
+  "kulupu",
+  "la",
+  "lanpan",
+  "li",
+  "lili",
+  "lon",
+  "luka",
+  "lukin",
+  "ma",
+  "mute",
+  "ni",
+  "o",
+  "ona",
+  "pakala",
+  "pana",
+  "sama",
+  "sina",
+  "suli",
+  "tan",
+  "tawa",
+  "toki",
+  "tu",
+  "wan",
+  "weka",
+];
 export function lex(code) {
-    throw new Error("todo");
+  throw new Error("todo");
 }
