@@ -66,11 +66,10 @@ kulupu li ken ala jo e kulupu.
 
 ### sitelen
 
-sitelen li kulupu pi nimi lili. ni la, sina ken kepeken nimi `""`, kepeken nimi `te to`.
+sitelen li kulupu pi nimi lili. ni la, sina ken kepeken nimi `""`.
 
 ```txt
 kulupu Pu li "toki a!".
-kulupu Bu li te suno pona! to.
 ```
 
 ## toki
