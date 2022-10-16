@@ -24,7 +24,6 @@ ijo li jo nanpa. nanpa ni li ken ante.
 
 ```txt
 ijo Pu li 42.
-ijo Pa li lon.
 ```
 
 ## ona
