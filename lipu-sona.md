@@ -2,7 +2,7 @@
 
 ## nasin
 
-ilo li lukin e sitelen sina li pali e ona. nimi `.` li lon pini nasin wan.
+ilo li lukin e sitelen sina li kute e ona. sike lili `.` li lon poka nasin wan.
 
 ```txt
 (a). (b). (c).
@@ -12,7 +12,7 @@ nasin ni la ilo li pali e `(a)`. ni li pini la, ona li pali e `(b)`. ni li pini 
 
 ## toki pi pali ala
 
-sina ken pana e toki pi pali ala. ilo li lukin ala e ona. nimi `()` li lon poka ona.
+sina ken pana e toki pi pali ala. ilo li lukin ala e ona. sitelen `()` li lon poka ona.
 
 ```txt
 (ilo li lukin ala e ni)
@@ -20,7 +20,7 @@ sina ken pana e toki pi pali ala. ilo li lukin ala e ona. nimi `()` li lon poka 
 
 ## ijo
 
-ijo li jo nanpa. nanpa ni li ken ante. sina ken pana e nimi tawa ona.
+ijo li jo nanpa. nanpa ni li ken ante.
 
 ```txt
 ijo Pu li 42.
@@ -31,18 +31,20 @@ ijo Pa li lon.
 
 mi o sitelen e ni.
 
+<!--
 ## lon en lon ala
 
-ilo li ken pana e lon e lon ala tawa ijo. ni la, sina ken kepeken nimi `lon`, kepeken nimi `lon ala`, kepeken nimi `weka`. nimi `lon ala` li sama nimi `powe` li sama nimi `weka`.
+ilo li ken pana e lon e lon ala tawa ijo. ni la, sina ken kepeken nimi `lon`, kepeken nimi `lon ala`, kepeken nimi `weka`. nimi `lon ala` li sama nimi `weka`.
 
 ```txt
 ijo Pu li lon.
 ijo Pa li lon ala.
 ```
+-->
 
 ## nanpa
 
-ilo li ken pana e nanpa tawa ijo. ni la, sina ken kepeken nanpa Alapi, kepeken nanpa pi toki pona.
+ilo li ken pana e nanpa tawa ijo. ni la, sina ken kepeken nanpa Alapi (0-9), kepeken nanpa pi toki pona (ala wan tu luka mute ale).
 
 ```txt
 ijo Pu li 42.
@@ -55,7 +57,7 @@ toki Inli la characters. mi o pona e ni.
 
 ## kulupu
 
-kulupu li ken jo e ijo mute. sina ken pana e nimi tawa ona.
+kulupu li ken jo e ijo mute.
 
 ```txt
 kulupu Pu li jo ala.
@@ -66,10 +68,16 @@ kulupu li ken ala jo e kulupu.
 
 ### sitelen
 
-sitelen li kulupu pi nimi lili. ni la, sina ken kepeken nimi `""`.
+sitelen li kulupu pi nimi lili. sitelen `""` li lon poka ona.
 
 ```txt
 kulupu Pu li "toki a!".
+```
+
+sitelen li ken lon kulupu nimi ante. sike lili tu `:` li lon poka ona.
+
+```txt
+kulupu Pu li ni: "toki a!".
 ```
 
 ## toki
@@ -78,7 +86,7 @@ ilo li ken toki.
 
 ```txt
 o toki e "toki!".
-kulupu Pu li "jan mi o!".
+kulupu Pu li ni: "jan mi o!".
 o toki e kulupu Pu.
 ```
 
@@ -100,7 +108,7 @@ o ante e ijo Pu tawa tu.
 
 ## pana
 
-## lanpan
+## weka
 
 ## lukin
 

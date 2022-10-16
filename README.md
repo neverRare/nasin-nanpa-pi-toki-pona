@@ -2,7 +2,7 @@
 
 ⚠ tenpo ni la, ilo ni li pini ala. sina ken ala kepeken ilo ni.
 
-kepeken ilo ni la, sina ken pali e nasin nanpa kepeken toki pona! ilo nanpa li ken sona e toki pona sina li pali e wile sina! ilo ni li nasa musi. pali sina li musi ala la, o kepeken ala ilo ni. :)
+kepeken ilo ni la, sina ken pali e nasin nanpa kepeken toki pona! ilo nanpa li ken sona e toki pona sina li kute e sina! ilo ni li nasa musi. pali sina li musi ala la, o kepeken ala ilo ni.
 
 sina wile ala wile sona kepeken ilo ni? wile la, o lukin e [lipu sona].
 
@@ -10,12 +10,12 @@ sina wile ala wile sona kepeken ilo ni? wile la, o lukin e [lipu sona].
 
 ---
 
-You must know Toki Pona before using this esolang. Being an esolang, this may not be a good introduction for Toki Pona.
+You must know Toki Pona before using this esolang. Being an esolang, this may not be a good introduction for Toki Pona nor progamming in general.
 
-## ma ale o kama pona (Hello world)
+## toki. ma o. (Hello world)
 
 ```txt
-o toki e "ma ale o kama pona!".
+o toki e ni: "toki. ma o.".
 ```
 
 ## pali Pisa Pasa (FizzBuzz)
