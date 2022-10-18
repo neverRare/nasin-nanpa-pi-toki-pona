@@ -4,7 +4,7 @@ Very temporary documentation. Shall be deleted in favor of [lipu sona].
 
 [lipu sona]: lipu-sona.md
 
-TODO: char as its own data type
+TODO: string and IO
 
 ## Comma
 
@@ -24,7 +24,9 @@ The computer may be referred to as `sina`, `ilo`, `ilo nanpa`, `ilo pi sitelen s
 
 ## Data Types
 
-there are 2 explicit types: integer `ijo` or `nanpa` (also used as boolean), and array `kulupu`.
+there are 3 types: integer, string, and array.
+
+nasin nanpa pi toki pona have some form of explicit typing: integers can be referred to as `ijo` or `nanpa`; strings can be referred to as `ijo`, `sitelen`, or `kulupu`; arrays can be referred to as `ijo` or `kulupu`.
 
 integers have range from 0 to infinity. integers are also used as boolean, 0 being false and anything else as true.
 
@@ -49,6 +51,12 @@ To declare non-empty array, use `jo`.
 kulupu Pu li jo e wan, e tu, e tu wan.
 ```
 
+you can use `en` to declare variables with the same value.
+
+```txt
+ijo Pu, en ijo Pa, li tu.
+```
+
 ## ala or weka
 
 `ala` and `weka` are used to indicate 0 or empty array. These two can be interchanged, although, `weka` is also used in other things.
@@ -70,6 +78,18 @@ ijo Pa li mute mute tu.
 ijo Pu o wan.
 ```
 
+When referring to other variable, you may use `sama`.
+
+```txt
+ijo Pu o sama ijo Pa.
+```
+
+You can use `en`.
+
+```txt
+ijo Pu, en ijo, Pa o wan.
+```
+
 Variables don't have to be declared to be assigned. Variables will be implicitly declared.
 
 ## ante
@@ -80,6 +100,12 @@ Variables don't have to be declared to be assigned. Variables will be implicitly
 o ante e ijo Pu tawa wan.
 ```
 
+You can use multiple `e`.
+
+```txt
+o ante e ijo Pu, e ijo Pa, tawa wan.
+```
+
 However, with this, variables should be declared.
 
 ## pana
@@ -87,9 +113,15 @@ However, with this, variables should be declared.
 `pana`, along with `tawa`, is used to increment numbers or push to array. You can refer to other variable, the source variable won't be changed.
 
 ```txt
-o pana e wan tawa ijo Pu
-o pana e wan, e tu, e tu wan, tawa kulupu Pa
-o pana e ijo Pu tawa kulupu
+o pana e wan tawa ijo Pu.
+o pana e wan, e tu, e tu wan, tawa kulupu Pa.
+o pana e ijo Pu tawa kulupu.
+```
+
+You can use multiple `tawa`.
+
+```txt
+o pana e wan tawa ijo Pu, tawa ijo Pa.
 ```
 
 If you refer to an array, the whole source array will be copied and pushed to destination array.
@@ -109,12 +141,22 @@ array index starts with 1
 kulupu Pu li jo e wan, e tu tu, e luka, e luka tu.
 kulupu Pa li jo e wan, e tu, e tu wan.
 
-o pana e ijo tu nanpa tu tawa kulupu Pa tan kulupu Pu tawa kulupu kulupu Pa.
+o pana e ijo tu nanpa tu tan kulupu Pu, tawa kulupu kulupu Pa.
 ```
 
 ## weka
 
-`weka`, along with `tan`, is used to decrement an integer, or remove a section of an array.
+`weka`, along with `tan`, is used to decrement an integer, or remove a section of an array using `ijo (length) nanpa (nth)` form.
+
+First form is addressing the integer or `ijo` of an array.
+
+```txt
+tu o weka tan ijo Pu.
+
+ijo tu nanpa tu o weka tan ijo Pa.
+```
+
+Second form is addressing the computer itself.
 
 ```txt
 o weka e tu tan ijo Pu.
@@ -122,12 +164,16 @@ o weka e tu tan ijo Pu.
 o weka e ijo tu nanpa tu tan ijo Pa.
 ```
 
-## lanpan
-
-`lanpan` can be used in place of `weka`. along with others, the computer can be referred to as `kijetesantakalu`.
+With the second form, you can use multiple `tan`.
 
 ```txt
-kijetesantakalu o lanpan e ale ale tan ijo Pu.
+o weka e tu tan ijo Pu, tan ijo Pa.
+```
+
+`lanpan` can be used in place of `weka` in second form. along with others, the computer can be referred to as `kijetesantakalu` or `kijetesantakalu tonsi` when `lanpan` is used.
+
+```txt
+kijetesantakalu tonsi o lanpan e ale ale tan ijo Pu.
 ```
 
 ## ma
@@ -142,7 +188,7 @@ ma Sike Tu li ni.
 
 ## tawa
 
-`tawa` may be used as go to.
+`tawa`, among other things, may be used as go to.
 
 ```txt
 o tawa ma Sike.
